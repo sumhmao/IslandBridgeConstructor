@@ -13,6 +13,12 @@
 		1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */; };
 		1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */; };
 		1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */; };
+		118E01EA1E7E800D0037FB1D /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01E91E7E800D0037FB1D /* Island.swift */; };
+		118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */; };
+		118E01F01E7E85170037FB1D /* ConstructionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EF1E7E85170037FB1D /* ConstructionType.swift */; };
+		118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01F11E7E86BC0037FB1D /* Bridge.swift */; };
+		8E0B8C57CF0258F059D8A756 /* Pods_IslandBridgeConstructorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E2A0B468E7619137D6F85 /* Pods_IslandBridgeConstructorTests.framework */; };
+		F6CE75C8B6D57DAE46086D4A /* Pods_IslandBridgeConstructor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95FF38784C32DE9BA06EA92 /* Pods_IslandBridgeConstructor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +42,16 @@
 		1161F6161E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslandBridgeConstructorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandBridgeConstructorTests.swift; sourceTree = "<group>"; };
 		1161F61C1E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		118E01E91E7E800D0037FB1D /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
+		118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
+		118E01EF1E7E85170037FB1D /* ConstructionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructionType.swift; sourceTree = "<group>"; };
+		118E01F11E7E86BC0037FB1D /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		68D3E7C96D038B9D10C022E8 /* Pods-IslandBridgeConstructor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructor.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor.release.xcconfig"; sourceTree = "<group>"; };
+		7AE1D5B55A6D6EEB6B62B7EF /* Pods-IslandBridgeConstructorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B756FDBB229627CDC624AE3 /* Pods-IslandBridgeConstructorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A05E2A0B468E7619137D6F85 /* Pods_IslandBridgeConstructorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslandBridgeConstructorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95FF38784C32DE9BA06EA92 /* Pods_IslandBridgeConstructor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IslandBridgeConstructor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC0AC943B6EF0A4A0ACAA4BB /* Pods-IslandBridgeConstructor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6CE75C8B6D57DAE46086D4A /* Pods_IslandBridgeConstructor.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E0B8C57CF0258F059D8A756 /* Pods_IslandBridgeConstructorTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +80,8 @@
 				1161F6041E7E7E2700AAFCA3 /* IslandBridgeConstructor */,
 				1161F6191E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */,
 				1161F6031E7E7E2700AAFCA3 /* Products */,
+				EA798BC1ABEF4B133C0CDE7D /* Pods */,
+				2AEBDF5529A8A67EE4D12762 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,12 +97,14 @@
 		1161F6041E7E7E2700AAFCA3 /* IslandBridgeConstructor */ = {
 			isa = PBXGroup;
 			children = (
-				1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */,
-				1161F6071E7E7E2700AAFCA3 /* ViewController.swift */,
-				1161F6091E7E7E2700AAFCA3 /* Main.storyboard */,
-				1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */,
-				1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */,
-				1161F6111E7E7E2700AAFCA3 /* Info.plist */,
+				1161F6251E7E7E6B00AAFCA3 /* Applications */,
+				1161F6261E7E7E8D00AAFCA3 /* Resources */,
+				1161F6271E7E7EA800AAFCA3 /* Enums */,
+				1161F6281E7E7EBF00AAFCA3 /* Extensions */,
+				1161F6291E7E7EC600AAFCA3 /* Models */,
+				1161F62A1E7E7ECD00AAFCA3 /* Modules */,
+				1161F62B1E7E7EEA00AAFCA3 /* Network */,
+				1161F62C1E7E7EF500AAFCA3 /* Protocols */,
 			);
 			path = IslandBridgeConstructor;
 			sourceTree = "<group>";
@@ -96,6 +118,92 @@
 			path = IslandBridgeConstructorTests;
 			sourceTree = "<group>";
 		};
+		1161F6251E7E7E6B00AAFCA3 /* Applications */ = {
+			isa = PBXGroup;
+			children = (
+				1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */,
+				1161F6071E7E7E2700AAFCA3 /* ViewController.swift */,
+				1161F6091E7E7E2700AAFCA3 /* Main.storyboard */,
+			);
+			name = Applications;
+			sourceTree = "<group>";
+		};
+		1161F6261E7E7E8D00AAFCA3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */,
+				1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */,
+				1161F6111E7E7E2700AAFCA3 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		1161F6271E7E7EA800AAFCA3 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				118E01EF1E7E85170037FB1D /* ConstructionType.swift */,
+			);
+			name = Enums;
+			sourceTree = "<group>";
+		};
+		1161F6281E7E7EBF00AAFCA3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		1161F6291E7E7EC600AAFCA3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				118E01E91E7E800D0037FB1D /* Island.swift */,
+				118E01F11E7E86BC0037FB1D /* Bridge.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1161F62A1E7E7ECD00AAFCA3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		1161F62B1E7E7EEA00AAFCA3 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Network;
+			sourceTree = "<group>";
+		};
+		1161F62C1E7E7EF500AAFCA3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		2AEBDF5529A8A67EE4D12762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95FF38784C32DE9BA06EA92 /* Pods_IslandBridgeConstructor.framework */,
+				A05E2A0B468E7619137D6F85 /* Pods_IslandBridgeConstructorTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA798BC1ABEF4B133C0CDE7D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC0AC943B6EF0A4A0ACAA4BB /* Pods-IslandBridgeConstructor.debug.xcconfig */,
+				68D3E7C96D038B9D10C022E8 /* Pods-IslandBridgeConstructor.release.xcconfig */,
+				7B756FDBB229627CDC624AE3 /* Pods-IslandBridgeConstructorTests.debug.xcconfig */,
+				7AE1D5B55A6D6EEB6B62B7EF /* Pods-IslandBridgeConstructorTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +211,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1161F61F1E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructor" */;
 			buildPhases = (
+				D3A83D3BFAC4B19F537E4A06 /* [CP] Check Pods Manifest.lock */,
 				1161F5FE1E7E7E2700AAFCA3 /* Sources */,
 				1161F5FF1E7E7E2700AAFCA3 /* Frameworks */,
 				1161F6001E7E7E2700AAFCA3 /* Resources */,
+				719DC8343044995F3FB0DAE5 /* [CP] Embed Pods Frameworks */,
+				F6B56B7090A181D27EF84AE2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +231,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1161F6221E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructorTests" */;
 			buildPhases = (
+				4B1F76E34EC772E7748CA7AE /* [CP] Check Pods Manifest.lock */,
 				1161F6121E7E7E2700AAFCA3 /* Sources */,
 				1161F6131E7E7E2700AAFCA3 /* Frameworks */,
 				1161F6141E7E7E2700AAFCA3 /* Resources */,
+				F85EE5B6B54BE995D5EA42CA /* [CP] Embed Pods Frameworks */,
+				0F25F676451372DFFB2EF1B1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +308,99 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F25F676451372DFFB2EF1B1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B1F76E34EC772E7748CA7AE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		719DC8343044995F3FB0DAE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3A83D3BFAC4B19F537E4A06 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6B56B7090A181D27EF84AE2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F85EE5B6B54BE995D5EA42CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1161F5FE1E7E7E2700AAFCA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -201,6 +408,10 @@
 			files = (
 				1161F6081E7E7E2700AAFCA3 /* ViewController.swift in Sources */,
 				1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */,
+				118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */,
+				118E01EA1E7E800D0037FB1D /* Island.swift in Sources */,
+				118E01F01E7E85170037FB1D /* ConstructionType.swift in Sources */,
+				118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +546,7 @@
 		};
 		1161F6201E7E7E2700AAFCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0AC943B6EF0A4A0ACAA4BB /* Pods-IslandBridgeConstructor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IslandBridgeConstructor/Info.plist;
@@ -347,6 +559,7 @@
 		};
 		1161F6211E7E7E2700AAFCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D3E7C96D038B9D10C022E8 /* Pods-IslandBridgeConstructor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = IslandBridgeConstructor/Info.plist;
@@ -359,6 +572,7 @@
 		};
 		1161F6231E7E7E2700AAFCA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B756FDBB229627CDC624AE3 /* Pods-IslandBridgeConstructorTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -373,6 +587,7 @@
 		};
 		1161F6241E7E7E2700AAFCA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE1D5B55A6D6EEB6B62B7EF /* Pods-IslandBridgeConstructorTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -404,6 +619,7 @@
 				1161F6211E7E7E2700AAFCA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1161F6221E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +628,7 @@
 				1161F6241E7E7E2700AAFCA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
