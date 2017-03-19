@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */; };
+		1161F6081E7E7E2700AAFCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6071E7E7E2700AAFCA3 /* ViewController.swift */; };
+		1161F60B1E7E7E2700AAFCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F6091E7E7E2700AAFCA3 /* Main.storyboard */; };
+		1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */; };
+		1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */; };
+		1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1161F6171E7E7E2700AAFCA3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1161F5FA1E7E7E2700AAFCA3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1161F6011E7E7E2700AAFCA3;
+			remoteInfo = IslandBridgeConstructor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1161F6021E7E7E2700AAFCA3 /* IslandBridgeConstructor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandBridgeConstructor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1161F6071E7E7E2700AAFCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1161F60A1E7E7E2700AAFCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1161F60F1E7E7E2700AAFCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1161F6111E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1161F6161E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslandBridgeConstructorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandBridgeConstructorTests.swift; sourceTree = "<group>"; };
+		1161F61C1E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1161F5FF1E7E7E2700AAFCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1161F6131E7E7E2700AAFCA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1161F5F91E7E7E2700AAFCA3 = {
+			isa = PBXGroup;
+			children = (
+				1161F6041E7E7E2700AAFCA3 /* IslandBridgeConstructor */,
+				1161F6191E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */,
+				1161F6031E7E7E2700AAFCA3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1161F6031E7E7E2700AAFCA3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1161F6021E7E7E2700AAFCA3 /* IslandBridgeConstructor.app */,
+				1161F6161E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1161F6041E7E7E2700AAFCA3 /* IslandBridgeConstructor */ = {
+			isa = PBXGroup;
+			children = (
+				1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */,
+				1161F6071E7E7E2700AAFCA3 /* ViewController.swift */,
+				1161F6091E7E7E2700AAFCA3 /* Main.storyboard */,
+				1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */,
+				1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */,
+				1161F6111E7E7E2700AAFCA3 /* Info.plist */,
+			);
+			path = IslandBridgeConstructor;
+			sourceTree = "<group>";
+		};
+		1161F6191E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */ = {
+			isa = PBXGroup;
+			children = (
+				1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */,
+				1161F61C1E7E7E2700AAFCA3 /* Info.plist */,
+			);
+			path = IslandBridgeConstructorTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1161F6011E7E7E2700AAFCA3 /* IslandBridgeConstructor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1161F61F1E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructor" */;
+			buildPhases = (
+				1161F5FE1E7E7E2700AAFCA3 /* Sources */,
+				1161F5FF1E7E7E2700AAFCA3 /* Frameworks */,
+				1161F6001E7E7E2700AAFCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IslandBridgeConstructor;
+			productName = IslandBridgeConstructor;
+			productReference = 1161F6021E7E7E2700AAFCA3 /* IslandBridgeConstructor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1161F6151E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1161F6221E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructorTests" */;
+			buildPhases = (
+				1161F6121E7E7E2700AAFCA3 /* Sources */,
+				1161F6131E7E7E2700AAFCA3 /* Frameworks */,
+				1161F6141E7E7E2700AAFCA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1161F6181E7E7E2700AAFCA3 /* PBXTargetDependency */,
+			);
+			name = IslandBridgeConstructorTests;
+			productName = IslandBridgeConstructorTests;
+			productReference = 1161F6161E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1161F5FA1E7E7E2700AAFCA3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Chavalit Vanasapdamrong";
+				TargetAttributes = {
+					1161F6011E7E7E2700AAFCA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					1161F6151E7E7E2700AAFCA3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1161F6011E7E7E2700AAFCA3;
+					};
+				};
+			};
+			buildConfigurationList = 1161F5FD1E7E7E2700AAFCA3 /* Build configuration list for PBXProject "IslandBridgeConstructor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1161F5F91E7E7E2700AAFCA3;
+			productRefGroup = 1161F6031E7E7E2700AAFCA3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1161F6011E7E7E2700AAFCA3 /* IslandBridgeConstructor */,
+				1161F6151E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1161F6001E7E7E2700AAFCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */,
+				1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */,
+				1161F60B1E7E7E2700AAFCA3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1161F6141E7E7E2700AAFCA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1161F5FE1E7E7E2700AAFCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161F6081E7E7E2700AAFCA3 /* ViewController.swift in Sources */,
+				1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1161F6121E7E7E2700AAFCA3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1161F6181E7E7E2700AAFCA3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1161F6011E7E7E2700AAFCA3 /* IslandBridgeConstructor */;
+			targetProxy = 1161F6171E7E7E2700AAFCA3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1161F6091E7E7E2700AAFCA3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1161F60A1E7E7E2700AAFCA3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1161F60F1E7E7E2700AAFCA3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1161F61D1E7E7E2700AAFCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1161F61E1E7E7E2700AAFCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1161F6201E7E7E2700AAFCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IslandBridgeConstructor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.mobile.chavalit.IslandBridgeConstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1161F6211E7E7E2700AAFCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IslandBridgeConstructor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.mobile.chavalit.IslandBridgeConstructor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1161F6231E7E7E2700AAFCA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IslandBridgeConstructorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.mobile.chavalit.IslandBridgeConstructorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslandBridgeConstructor.app/IslandBridgeConstructor";
+			};
+			name = Debug;
+		};
+		1161F6241E7E7E2700AAFCA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = IslandBridgeConstructorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = th.mobile.chavalit.IslandBridgeConstructorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IslandBridgeConstructor.app/IslandBridgeConstructor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1161F5FD1E7E7E2700AAFCA3 /* Build configuration list for PBXProject "IslandBridgeConstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1161F61D1E7E7E2700AAFCA3 /* Debug */,
+				1161F61E1E7E7E2700AAFCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1161F61F1E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1161F6201E7E7E2700AAFCA3 /* Debug */,
+				1161F6211E7E7E2700AAFCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1161F6221E7E7E2700AAFCA3 /* Build configuration list for PBXNativeTarget "IslandBridgeConstructorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1161F6231E7E7E2700AAFCA3 /* Debug */,
+				1161F6241E7E7E2700AAFCA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1161F5FA1E7E7E2700AAFCA3 /* Project object */;
+}
