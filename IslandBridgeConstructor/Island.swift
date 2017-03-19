@@ -11,9 +11,15 @@ import Foundation
 class Island {
     
     private(set) var id: Int
-    private(set) var bridges = [AnyObject]()
-    
+    private(set) var bridges = [Bridge]()
+        
     init(id:Int) {
         self.id = id
+    }
+    
+    func addBridge(_ bridge:Bridge) {
+        if !bridges.contains(where: {$0 === bridge}) {
+            bridges.append(bridge)
+        }
     }
 }

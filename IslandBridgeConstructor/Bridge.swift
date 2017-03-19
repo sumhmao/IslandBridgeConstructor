@@ -8,14 +8,21 @@
 
 import Foundation
 
-struct Bridge {
+class Bridge {
     
-    private(set) var relation: [Int]
-    private(set) var constructedDate: Int
+    private(set) var relation: [Island]
+    private(set) var constructionInfo: JobInfo
     
-    init(firstId:Int, secondId:Int, date:Int) {
-        relation = [firstId, secondId]
-        constructedDate = date
+    init(firstIsland:Island, secondIsland:Island, info:JobInfo) {
+        relation = [firstIsland, secondIsland]
+        constructionInfo = info
+    }
+    
+    func destination(from: Island) -> Island? {
+        guard relation.contains(where: {$0 === from}) else {
+            return nil
+        }
+        return relation.first(where: {$0 !== from})
     }
     
 }

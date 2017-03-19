@@ -8,12 +8,12 @@
 
 import Foundation
 
-enum ConstructionType {
+enum JobType {
     
     case ConstructBridge(Int, Int)
     case InspectBridge(Int, Int)
     
-    var constructDetail: String {
+    var jobDetail: String {
         switch self {
         case .ConstructBridge(let id1, let id2):
             return "Constructed a bridge between Island\(id1) and Island\(id2)"

@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		113EBEB81E7EF12D008CE4B1 /* RootContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEB71E7EF12D008CE4B1 /* RootContract.swift */; };
+		113EBEBA1E7EF13C008CE4B1 /* RootRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEB91E7EF13C008CE4B1 /* RootRouter.swift */; };
+		113EBEC11E7EF1ED008CE4B1 /* MainContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEC01E7EF1ED008CE4B1 /* MainContract.swift */; };
+		113EBEC31E7EF3AC008CE4B1 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEC21E7EF3AC008CE4B1 /* MainRouter.swift */; };
+		113EBEC51E7EF408008CE4B1 /* MainPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEC41E7EF408008CE4B1 /* MainPresenter.swift */; };
+		113EBEC71E7EF42C008CE4B1 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEC61E7EF42C008CE4B1 /* MainInteractor.swift */; };
+		113EBEC91E7EF509008CE4B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EBEC81E7EF509008CE4B1 /* MainStoryboard.storyboard */; };
+		113EBECB1E7EF52C008CE4B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBECA1E7EF52C008CE4B1 /* MainViewController.swift */; };
 		1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */; };
-		1161F6081E7E7E2700AAFCA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6071E7E7E2700AAFCA3 /* ViewController.swift */; };
-		1161F60B1E7E7E2700AAFCA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F6091E7E7E2700AAFCA3 /* Main.storyboard */; };
 		1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */; };
 		1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */; };
 		1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */; };
 		118E01EA1E7E800D0037FB1D /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01E91E7E800D0037FB1D /* Island.swift */; };
 		118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */; };
-		118E01F01E7E85170037FB1D /* ConstructionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EF1E7E85170037FB1D /* ConstructionType.swift */; };
+		118E01F01E7E85170037FB1D /* JobType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EF1E7E85170037FB1D /* JobType.swift */; };
 		118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01F11E7E86BC0037FB1D /* Bridge.swift */; };
+		11A81F9D1E7EE73A0052679A /* JobInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A81F9C1E7EE73A0052679A /* JobInfo.swift */; };
 		8E0B8C57CF0258F059D8A756 /* Pods_IslandBridgeConstructorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E2A0B468E7619137D6F85 /* Pods_IslandBridgeConstructorTests.framework */; };
 		F6CE75C8B6D57DAE46086D4A /* Pods_IslandBridgeConstructor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95FF38784C32DE9BA06EA92 /* Pods_IslandBridgeConstructor.framework */; };
 /* End PBXBuildFile section */
@@ -32,10 +39,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		113EBEB71E7EF12D008CE4B1 /* RootContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootContract.swift; sourceTree = "<group>"; };
+		113EBEB91E7EF13C008CE4B1 /* RootRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootRouter.swift; sourceTree = "<group>"; };
+		113EBEC01E7EF1ED008CE4B1 /* MainContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContract.swift; sourceTree = "<group>"; };
+		113EBEC21E7EF3AC008CE4B1 /* MainRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		113EBEC41E7EF408008CE4B1 /* MainPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPresenter.swift; sourceTree = "<group>"; };
+		113EBEC61E7EF42C008CE4B1 /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
+		113EBEC81E7EF509008CE4B1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		113EBECA1E7EF52C008CE4B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		1161F6021E7E7E2700AAFCA3 /* IslandBridgeConstructor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandBridgeConstructor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1161F6071E7E7E2700AAFCA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		1161F60A1E7E7E2700AAFCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1161F60F1E7E7E2700AAFCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1161F6111E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +57,9 @@
 		1161F61C1E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118E01E91E7E800D0037FB1D /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		118E01EF1E7E85170037FB1D /* ConstructionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstructionType.swift; sourceTree = "<group>"; };
+		118E01EF1E7E85170037FB1D /* JobType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobType.swift; sourceTree = "<group>"; };
 		118E01F11E7E86BC0037FB1D /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
+		11A81F9C1E7EE73A0052679A /* JobInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobInfo.swift; sourceTree = "<group>"; };
 		68D3E7C96D038B9D10C022E8 /* Pods-IslandBridgeConstructor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructor.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor.release.xcconfig"; sourceTree = "<group>"; };
 		7AE1D5B55A6D6EEB6B62B7EF /* Pods-IslandBridgeConstructorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B756FDBB229627CDC624AE3 /* Pods-IslandBridgeConstructorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +88,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		113EBEB51E7EF0E9008CE4B1 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEB71E7EF12D008CE4B1 /* RootContract.swift */,
+				113EBEB91E7EF13C008CE4B1 /* RootRouter.swift */,
+			);
+			name = Root;
+			sourceTree = "<group>";
+		};
+		113EBEB61E7EF0F0008CE4B1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEBF1E7EF1CE008CE4B1 /* Contract */,
+				113EBEBD1E7EF1B4008CE4B1 /* Interactor */,
+				113EBEBE1E7EF1C5008CE4B1 /* Presenter */,
+				113EBEBC1E7EF1AD008CE4B1 /* Router */,
+				113EBEBB1E7EF1A5008CE4B1 /* View */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		113EBEBB1E7EF1A5008CE4B1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEC81E7EF509008CE4B1 /* MainStoryboard.storyboard */,
+				113EBECA1E7EF52C008CE4B1 /* MainViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		113EBEBC1E7EF1AD008CE4B1 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEC21E7EF3AC008CE4B1 /* MainRouter.swift */,
+			);
+			name = Router;
+			sourceTree = "<group>";
+		};
+		113EBEBD1E7EF1B4008CE4B1 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEC61E7EF42C008CE4B1 /* MainInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		113EBEBE1E7EF1C5008CE4B1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEC41E7EF408008CE4B1 /* MainPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		113EBEBF1E7EF1CE008CE4B1 /* Contract */ = {
+			isa = PBXGroup;
+			children = (
+				113EBEC01E7EF1ED008CE4B1 /* MainContract.swift */,
+			);
+			name = Contract;
+			sourceTree = "<group>";
+		};
 		1161F5F91E7E7E2700AAFCA3 = {
 			isa = PBXGroup;
 			children = (
@@ -122,8 +198,6 @@
 			isa = PBXGroup;
 			children = (
 				1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */,
-				1161F6071E7E7E2700AAFCA3 /* ViewController.swift */,
-				1161F6091E7E7E2700AAFCA3 /* Main.storyboard */,
 			);
 			name = Applications;
 			sourceTree = "<group>";
@@ -141,7 +215,7 @@
 		1161F6271E7E7EA800AAFCA3 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				118E01EF1E7E85170037FB1D /* ConstructionType.swift */,
+				118E01EF1E7E85170037FB1D /* JobType.swift */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -159,6 +233,7 @@
 			children = (
 				118E01E91E7E800D0037FB1D /* Island.swift */,
 				118E01F11E7E86BC0037FB1D /* Bridge.swift */,
+				11A81F9C1E7EE73A0052679A /* JobInfo.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -166,6 +241,8 @@
 		1161F62A1E7E7ECD00AAFCA3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				113EBEB51E7EF0E9008CE4B1 /* Root */,
+				113EBEB61E7EF0F0008CE4B1 /* Main */,
 			);
 			name = Modules;
 			sourceTree = "<group>";
@@ -295,7 +372,7 @@
 			files = (
 				1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */,
 				1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */,
-				1161F60B1E7E7E2700AAFCA3 /* Main.storyboard in Resources */,
+				113EBEC91E7EF509008CE4B1 /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,12 +483,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1161F6081E7E7E2700AAFCA3 /* ViewController.swift in Sources */,
+				113EBEC11E7EF1ED008CE4B1 /* MainContract.swift in Sources */,
+				11A81F9D1E7EE73A0052679A /* JobInfo.swift in Sources */,
 				1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */,
 				118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */,
+				113EBEBA1E7EF13C008CE4B1 /* RootRouter.swift in Sources */,
 				118E01EA1E7E800D0037FB1D /* Island.swift in Sources */,
-				118E01F01E7E85170037FB1D /* ConstructionType.swift in Sources */,
+				113EBECB1E7EF52C008CE4B1 /* MainViewController.swift in Sources */,
+				113EBEC51E7EF408008CE4B1 /* MainPresenter.swift in Sources */,
+				118E01F01E7E85170037FB1D /* JobType.swift in Sources */,
 				118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */,
+				113EBEC31E7EF3AC008CE4B1 /* MainRouter.swift in Sources */,
+				113EBEB81E7EF12D008CE4B1 /* RootContract.swift in Sources */,
+				113EBEC71E7EF42C008CE4B1 /* MainInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,14 +518,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1161F6091E7E7E2700AAFCA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1161F60A1E7E7E2700AAFCA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
