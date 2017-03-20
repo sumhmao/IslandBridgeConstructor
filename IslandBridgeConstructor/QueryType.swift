@@ -10,15 +10,29 @@ import Foundation
 
 enum QueryType {
     
-    case Build(Int, Int)
-    case Check(Int, Int)
+    case Build
+    case Check
+    case Unknown
     
-    var queryDetail: String {
+    static func fromString(_ string: String) -> QueryType {
+        switch string {
+        case "build":
+            return .Build
+        case "check":
+            return .Check
+        default:
+            return .Unknown
+        }
+    }
+    
+    func queryDetail(id1: Int, id2: Int) -> String {
         switch self {
-        case .Build(let id1, let id2):
+        case .Build:
             return "build \(id1) \(id2)"
-        case .Check(let id1, let id2):
+        case .Check:
             return "check \(id1) \(id2)"
+        default:
+            return "Unknown"
         }
     }
     

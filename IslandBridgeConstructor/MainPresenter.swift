@@ -18,8 +18,14 @@ class MainPresenter: MainPresentation {
         
     }
     
+    func didTapClear() {
+        view?.hideKeyboard()
+        view?.clearInput()
+    }
+    
     func didTapExecute(input: String) {
-        
+        view?.hideKeyboard()
+        _ = interactor.executeLogic(input: input)
     }
     
 }
@@ -27,7 +33,15 @@ class MainPresenter: MainPresentation {
 extension MainPresenter: MainInteractorOutput {
     
     func gotResult(_ result: String) {
-        
+        view?.showOutput(result)
+    }
+    
+    func failedToExecute(reason: String?) {
+        if let message = reason {
+            view?.showInvalidInputError(message: message)
+        } else {
+            view?.showInvalidInputError()
+        }
     }
     
 }

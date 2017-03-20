@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CAN-9b-VuB">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="9hX-i2-RzT">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -9,23 +9,106 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main View Controller-->
+        <!--Navigation Controller-->
+        <scene sceneID="nE8-Vg-Gpp">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jSF-Dd-065" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="9hX-i2-RzT" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="e7K-Ju-TeW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="CAN-9b-VuB" kind="relationship" relationship="rootViewController" id="qVM-Ps-gsX"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-558" y="158"/>
+        </scene>
+        <!--Bridge Construction-->
         <scene sceneID="XQx-mT-XHT">
             <objects>
-                <viewController storyboardIdentifier="MainViewController" id="CAN-9b-VuB" customClass="MainViewController" customModule="IslandBridgeConstructor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" title="Bridge Construction" automaticallyAdjustsScrollViewInsets="NO" id="CAN-9b-VuB" customClass="MainViewController" customModule="IslandBridgeConstructor" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tSO-bz-uXs"/>
                         <viewControllerLayoutGuide type="bottom" id="8j6-3o-td9"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="a2V-Im-Pt9">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Input" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Sex-0z-smn">
+                                <rect key="frame" x="16" y="20" width="343" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="DBv-TE-Sao"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="fUd-PZ-cpG">
+                                <rect key="frame" x="16" y="62" width="343" height="223"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uBb-c4-xLA">
+                                <rect key="frame" x="16" y="349" width="343" height="223"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Output" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRr-pE-CNi">
+                                <rect key="frame" x="16" y="302" width="343" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="23" id="uYn-VW-I1H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="uBb-c4-xLA" secondAttribute="trailing" constant="16" id="4HN-D9-wsR"/>
+                            <constraint firstItem="uBb-c4-xLA" firstAttribute="height" secondItem="fUd-PZ-cpG" secondAttribute="height" id="C9v-OC-hFB"/>
+                            <constraint firstAttribute="trailing" secondItem="kRr-pE-CNi" secondAttribute="trailing" constant="16" id="Eoq-b3-xHJ"/>
+                            <constraint firstAttribute="trailing" secondItem="fUd-PZ-cpG" secondAttribute="trailing" constant="16" id="F6x-mY-ha9"/>
+                            <constraint firstItem="fUd-PZ-cpG" firstAttribute="top" secondItem="Sex-0z-smn" secondAttribute="bottom" constant="19" id="GiW-Nx-2t1"/>
+                            <constraint firstItem="uBb-c4-xLA" firstAttribute="top" secondItem="kRr-pE-CNi" secondAttribute="bottom" constant="24" id="QJU-R5-imw"/>
+                            <constraint firstItem="Sex-0z-smn" firstAttribute="top" secondItem="tSO-bz-uXs" secondAttribute="bottom" constant="20" id="Rnk-21-KOb"/>
+                            <constraint firstItem="Sex-0z-smn" firstAttribute="leading" secondItem="a2V-Im-Pt9" secondAttribute="leading" constant="16" id="SZm-Zc-arx"/>
+                            <constraint firstItem="8j6-3o-td9" firstAttribute="top" secondItem="uBb-c4-xLA" secondAttribute="bottom" constant="31" id="Y2a-f1-A5M"/>
+                            <constraint firstAttribute="trailing" secondItem="Sex-0z-smn" secondAttribute="trailing" constant="16" id="m7m-Ok-yR2"/>
+                            <constraint firstItem="fUd-PZ-cpG" firstAttribute="leading" secondItem="a2V-Im-Pt9" secondAttribute="leading" constant="16" id="pmf-FF-G9d"/>
+                            <constraint firstItem="uBb-c4-xLA" firstAttribute="leading" secondItem="a2V-Im-Pt9" secondAttribute="leading" constant="16" id="rJ7-WP-b2v"/>
+                            <constraint firstItem="kRr-pE-CNi" firstAttribute="leading" secondItem="a2V-Im-Pt9" secondAttribute="leading" constant="16" id="rto-kD-j0g"/>
+                            <constraint firstItem="kRr-pE-CNi" firstAttribute="top" secondItem="fUd-PZ-cpG" secondAttribute="bottom" constant="17" id="upH-1a-cYd"/>
+                        </constraints>
                     </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <navigationItem key="navigationItem" id="NKb-aG-bWw">
+                        <barButtonItem key="leftBarButtonItem" title="Clear" id="hIv-8h-sUg">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="didTapClear" destination="CAN-9b-VuB" id="zxk-sw-doV"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Execute" id="fTq-yb-6cz">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <action selector="didTapExecute" destination="CAN-9b-VuB" id="uvf-7O-Dla"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="inputTextView" destination="fUd-PZ-cpG" id="3o2-lY-K7z"/>
+                        <outlet property="outputTextView" destination="uBb-c4-xLA" id="ycd-se-O6p"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hkd-jo-oLP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="177" y="158"/>
+            <point key="canvasLocation" x="176.80000000000001" y="157.87106446776613"/>
         </scene>
     </scenes>
 </document>

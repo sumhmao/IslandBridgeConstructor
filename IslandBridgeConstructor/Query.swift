@@ -11,8 +11,8 @@ import Foundation
 class Query {
     
     private(set) var queryType: QueryType
-    private(set) var from: Island
-    private(set) var to: Island
+    private(set) var from: Int
+    private(set) var to: Int
     private(set) var queryDate: Int
     
     var checkBitwise: Int64 {
@@ -20,10 +20,10 @@ class Query {
     }
     
     var description: String {
-        return queryType.queryDetail
+        return queryType.queryDetail(id1: from, id2: to)
     }
     
-    init(from:Island, to:Island, type:QueryType, date:Int) {
+    init(from:Int, to:Int, type:QueryType, date:Int) {
         self.from = from
         self.to = to
         queryType = type

@@ -11,7 +11,12 @@ import Foundation
 extension Island {
     
     func canBuildBridge(to: Island) -> Bool {
-        return false
+        for bridge in bridges {
+            if bridge.reach(to) {
+                return false
+            }
+        }
+        return true
     }
     
 }

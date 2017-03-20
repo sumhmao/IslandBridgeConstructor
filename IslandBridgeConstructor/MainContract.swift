@@ -8,8 +8,14 @@
 
 import UIKit
 
-protocol MainView: class {
+protocol MainView: IndicatableView {
     var presenter: MainPresentation! { get set }
+    
+    func clearInput()
+    func hideKeyboard()
+    func showInvalidInputError()
+    func showInvalidInputError(message: String)
+    func showOutput(_ output:String)
 }
 
 protocol MainPresentation: class {
@@ -18,17 +24,19 @@ protocol MainPresentation: class {
     var router: MainWireframe! { get set }
     
     func viewDidLoad()
+    func didTapClear()
     func didTapExecute(input:String)
 }
 
 protocol MainUseCase: class {
     weak var output: MainInteractorOutput! { get set }
     
-    func executeLogic(input:String)
+    func executeLogic(input:String) -> Bool
 }
 
 protocol MainInteractorOutput: class {
     func gotResult(_ result:String)
+    func failedToExecute(reason:String?)
 }
 
 protocol MainWireframe: class {
