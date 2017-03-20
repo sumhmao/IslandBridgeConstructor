@@ -11,11 +11,16 @@ import Foundation
 class Bridge {
     
     private(set) var relation: [Island]
-    private(set) var constructionInfo: JobInfo
+    private(set) var constructedDate: Int
+    private(set) var bitwise: Int64 = 0
     
-    init(firstIsland:Island, secondIsland:Island, info:JobInfo) {
-        relation = [firstIsland, secondIsland]
-        constructionInfo = info
+    init(from:Island, to:Island, date:Int) {
+        relation = [from, to]
+        constructedDate = date
+        
+        relation.forEach { island in
+            bitwise = bitwise | island.bitwise
+        }
     }
     
     func destination(from: Island) -> Island? {

@@ -18,8 +18,16 @@ class MainPresenter: MainPresentation {
         
     }
     
+    func didTapExecute(input: String) {
+        
+    }
+    
 }
 
 extension MainPresenter: MainInteractorOutput {
+    
+    func gotResult(_ result: String) {
+        
+    }
     
 }

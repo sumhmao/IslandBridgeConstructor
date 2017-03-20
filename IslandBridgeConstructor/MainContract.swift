@@ -18,14 +18,17 @@ protocol MainPresentation: class {
     var router: MainWireframe! { get set }
     
     func viewDidLoad()
+    func didTapExecute(input:String)
 }
 
 protocol MainUseCase: class {
     weak var output: MainInteractorOutput! { get set }
+    
+    func executeLogic(input:String)
 }
 
 protocol MainInteractorOutput: class {
-    
+    func gotResult(_ result:String)
 }
 
 protocol MainWireframe: class {

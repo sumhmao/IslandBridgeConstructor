@@ -1,19 +1,17 @@
 //
-//  MainInteractor.swift
+//  IslandExtension.swift
 //  IslandBridgeConstructor
 //
 //  Created by Chavalit Vanasapdamrong on 3/20/2560 BE.
 //  Copyright © 2560 Chavalit Vanasapdamrong. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
-class MainInteractor: MainUseCase {
-
-    weak var output: MainInteractorOutput!
+extension Island {
     
-    func executeLogic(input: String) {
-        
+    func canBuildBridge(to: Island) -> Bool {
+        return false
     }
     
 }

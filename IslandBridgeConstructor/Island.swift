@@ -12,7 +12,11 @@ class Island {
     
     private(set) var id: Int
     private(set) var bridges = [Bridge]()
-        
+    
+    var bitwise: Int64 {
+        return id.bitwise
+    }
+    
     init(id:Int) {
         self.id = id
     }
@@ -22,4 +26,13 @@ class Island {
             bridges.append(bridge)
         }
     }
+    
+    func removeBridge(_ bridge:Bridge) {
+        bridges.removeObject(bridge)
+    }
+    
+    func sortBridges() {
+        bridges.sortBridgeAge()
+    }
+    
 }

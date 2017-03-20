@@ -15,15 +15,21 @@
 		113EBEC71E7EF42C008CE4B1 /* MainInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEC61E7EF42C008CE4B1 /* MainInteractor.swift */; };
 		113EBEC91E7EF509008CE4B1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 113EBEC81E7EF509008CE4B1 /* MainStoryboard.storyboard */; };
 		113EBECB1E7EF52C008CE4B1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBECA1E7EF52C008CE4B1 /* MainViewController.swift */; };
+		113EBECD1E7F075E008CE4B1 /* BridgeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBECC1E7F075E008CE4B1 /* BridgeExtension.swift */; };
+		113EBECF1E7F0860008CE4B1 /* IslandExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBECE1E7F0860008CE4B1 /* IslandExtension.swift */; };
+		113EBED11E7FAAA9008CE4B1 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBED01E7FAAA9008CE4B1 /* Route.swift */; };
+		113EBED31E7FAD6B008CE4B1 /* IntExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBED21E7FAD6B008CE4B1 /* IntExtension.swift */; };
+		113EBED51E7FAEFD008CE4B1 /* BitWiseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBED41E7FAEFD008CE4B1 /* BitWiseTests.swift */; };
+		113EBED71E7FBDF8008CE4B1 /* RoutePickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBED61E7FBDF8008CE4B1 /* RoutePickTests.swift */; };
+		113EBED91E7FC36F008CE4B1 /* BridgeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBED81E7FC36F008CE4B1 /* BridgeTests.swift */; };
 		1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */; };
 		1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */; };
 		1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */; };
-		1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */; };
 		118E01EA1E7E800D0037FB1D /* Island.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01E91E7E800D0037FB1D /* Island.swift */; };
 		118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */; };
-		118E01F01E7E85170037FB1D /* JobType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EF1E7E85170037FB1D /* JobType.swift */; };
+		118E01F01E7E85170037FB1D /* QueryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01EF1E7E85170037FB1D /* QueryType.swift */; };
 		118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118E01F11E7E86BC0037FB1D /* Bridge.swift */; };
-		11A81F9D1E7EE73A0052679A /* JobInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A81F9C1E7EE73A0052679A /* JobInfo.swift */; };
+		11A81F9D1E7EE73A0052679A /* Query.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A81F9C1E7EE73A0052679A /* Query.swift */; };
 		8E0B8C57CF0258F059D8A756 /* Pods_IslandBridgeConstructorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A05E2A0B468E7619137D6F85 /* Pods_IslandBridgeConstructorTests.framework */; };
 		F6CE75C8B6D57DAE46086D4A /* Pods_IslandBridgeConstructor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95FF38784C32DE9BA06EA92 /* Pods_IslandBridgeConstructor.framework */; };
 /* End PBXBuildFile section */
@@ -47,19 +53,25 @@
 		113EBEC61E7EF42C008CE4B1 /* MainInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainInteractor.swift; sourceTree = "<group>"; };
 		113EBEC81E7EF509008CE4B1 /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		113EBECA1E7EF52C008CE4B1 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		113EBECC1E7F075E008CE4B1 /* BridgeExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeExtension.swift; sourceTree = "<group>"; };
+		113EBECE1E7F0860008CE4B1 /* IslandExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IslandExtension.swift; sourceTree = "<group>"; };
+		113EBED01E7FAAA9008CE4B1 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		113EBED21E7FAD6B008CE4B1 /* IntExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntExtension.swift; sourceTree = "<group>"; };
+		113EBED41E7FAEFD008CE4B1 /* BitWiseTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitWiseTests.swift; sourceTree = "<group>"; };
+		113EBED61E7FBDF8008CE4B1 /* RoutePickTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePickTests.swift; sourceTree = "<group>"; };
+		113EBED81E7FC36F008CE4B1 /* BridgeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeTests.swift; sourceTree = "<group>"; };
 		1161F6021E7E7E2700AAFCA3 /* IslandBridgeConstructor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IslandBridgeConstructor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1161F60F1E7E7E2700AAFCA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1161F6111E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1161F6161E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IslandBridgeConstructorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandBridgeConstructorTests.swift; sourceTree = "<group>"; };
 		1161F61C1E7E7E2700AAFCA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		118E01E91E7E800D0037FB1D /* Island.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Island.swift; sourceTree = "<group>"; };
 		118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtension.swift; sourceTree = "<group>"; };
-		118E01EF1E7E85170037FB1D /* JobType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobType.swift; sourceTree = "<group>"; };
+		118E01EF1E7E85170037FB1D /* QueryType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueryType.swift; sourceTree = "<group>"; };
 		118E01F11E7E86BC0037FB1D /* Bridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bridge.swift; sourceTree = "<group>"; };
-		11A81F9C1E7EE73A0052679A /* JobInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobInfo.swift; sourceTree = "<group>"; };
+		11A81F9C1E7EE73A0052679A /* Query.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Query.swift; sourceTree = "<group>"; };
 		68D3E7C96D038B9D10C022E8 /* Pods-IslandBridgeConstructor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructor.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructor/Pods-IslandBridgeConstructor.release.xcconfig"; sourceTree = "<group>"; };
 		7AE1D5B55A6D6EEB6B62B7EF /* Pods-IslandBridgeConstructorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.release.xcconfig"; sourceTree = "<group>"; };
 		7B756FDBB229627CDC624AE3 /* Pods-IslandBridgeConstructorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IslandBridgeConstructorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IslandBridgeConstructorTests/Pods-IslandBridgeConstructorTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -188,7 +200,9 @@
 		1161F6191E7E7E2700AAFCA3 /* IslandBridgeConstructorTests */ = {
 			isa = PBXGroup;
 			children = (
-				1161F61A1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift */,
+				113EBED41E7FAEFD008CE4B1 /* BitWiseTests.swift */,
+				113EBED81E7FC36F008CE4B1 /* BridgeTests.swift */,
+				113EBED61E7FBDF8008CE4B1 /* RoutePickTests.swift */,
 				1161F61C1E7E7E2700AAFCA3 /* Info.plist */,
 			);
 			path = IslandBridgeConstructorTests;
@@ -215,7 +229,7 @@
 		1161F6271E7E7EA800AAFCA3 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
-				118E01EF1E7E85170037FB1D /* JobType.swift */,
+				118E01EF1E7E85170037FB1D /* QueryType.swift */,
 			);
 			name = Enums;
 			sourceTree = "<group>";
@@ -224,6 +238,9 @@
 			isa = PBXGroup;
 			children = (
 				118E01EB1E7E843A0037FB1D /* ArrayExtension.swift */,
+				113EBECC1E7F075E008CE4B1 /* BridgeExtension.swift */,
+				113EBECE1E7F0860008CE4B1 /* IslandExtension.swift */,
+				113EBED21E7FAD6B008CE4B1 /* IntExtension.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -233,7 +250,8 @@
 			children = (
 				118E01E91E7E800D0037FB1D /* Island.swift */,
 				118E01F11E7E86BC0037FB1D /* Bridge.swift */,
-				11A81F9C1E7EE73A0052679A /* JobInfo.swift */,
+				11A81F9C1E7EE73A0052679A /* Query.swift */,
+				113EBED01E7FAAA9008CE4B1 /* Route.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -484,14 +502,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				113EBEC11E7EF1ED008CE4B1 /* MainContract.swift in Sources */,
-				11A81F9D1E7EE73A0052679A /* JobInfo.swift in Sources */,
+				11A81F9D1E7EE73A0052679A /* Query.swift in Sources */,
 				1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */,
 				118E01F21E7E86BC0037FB1D /* Bridge.swift in Sources */,
 				113EBEBA1E7EF13C008CE4B1 /* RootRouter.swift in Sources */,
+				113EBED11E7FAAA9008CE4B1 /* Route.swift in Sources */,
+				113EBECF1E7F0860008CE4B1 /* IslandExtension.swift in Sources */,
 				118E01EA1E7E800D0037FB1D /* Island.swift in Sources */,
 				113EBECB1E7EF52C008CE4B1 /* MainViewController.swift in Sources */,
 				113EBEC51E7EF408008CE4B1 /* MainPresenter.swift in Sources */,
-				118E01F01E7E85170037FB1D /* JobType.swift in Sources */,
+				113EBECD1E7F075E008CE4B1 /* BridgeExtension.swift in Sources */,
+				118E01F01E7E85170037FB1D /* QueryType.swift in Sources */,
+				113EBED31E7FAD6B008CE4B1 /* IntExtension.swift in Sources */,
 				118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */,
 				113EBEC31E7EF3AC008CE4B1 /* MainRouter.swift in Sources */,
 				113EBEB81E7EF12D008CE4B1 /* RootContract.swift in Sources */,
@@ -503,7 +525,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1161F61B1E7E7E2700AAFCA3 /* IslandBridgeConstructorTests.swift in Sources */,
+				113EBED71E7FBDF8008CE4B1 /* RoutePickTests.swift in Sources */,
+				113EBED91E7FC36F008CE4B1 /* BridgeTests.swift in Sources */,
+				113EBED51E7FAEFD008CE4B1 /* BitWiseTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
