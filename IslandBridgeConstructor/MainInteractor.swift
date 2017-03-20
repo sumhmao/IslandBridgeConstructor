@@ -12,33 +12,47 @@ class MainInteractor: MainUseCase {
     
     weak var output: MainInteractorOutput!
     
-    func executeLogic(input: String) -> Bool {
+    func executeLogic(input: String) {
+        let result = initializeQueries(input: input)
+        if result.0, let queries = result.1, let nValue = result.2 {
+            let group = DispatchGroup()
+            group.enter()
+            var result = ""
+            DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
+                result = self.executeQueries(queries, n: nValue)
+                group.leave()
+            }
+            group.notify(queue: .main) {
+                self.output.gotResult(result)
+            }
+        } else {
+            self.output.failedToExecute(reason: result.3)
+        }
+    }
+    
+    func initializeQueries(input: String) -> (Bool, [Query]?, Int?, String?) {
         let lines = input.lines
         
         guard lines.count > 1 else {
-            output.failedToExecute(reason: nil)
-            return false
+            return (false, nil, nil, nil)
         }
         
         let initialQuery = lines[0].trimSpace
         let initialItems = initialQuery.items
         
         guard initialItems.count == 2 else {
-            output.failedToExecute(reason: nil)
-            return false
+            return (false, nil, nil, nil)
         }
         
         let N = Int(initialItems[0])
         let Q = Int(initialItems[1])
         
         guard let nValue = N, let qValue = Q else {
-            output.failedToExecute(reason: "Invalid query: \(initialQuery)")
-            return false
+            return (false, nil, nil, "Invalid query: \(initialQuery)")
         }
         
         guard qValue == lines.count - 1 else {
-            output.failedToExecute(reason: "Total queries doesn't match Q: Expected:\(qValue), Actual:\(lines.count - 1)")
-            return false
+            return (false, nil, nil, "Total queries doesn't match Q: Expected:\(qValue), Actual:\(lines.count - 1)")
         }
         
         var queries = [Query]()
@@ -48,42 +62,34 @@ class MainInteractor: MainUseCase {
             let items = queryText.items
             
             guard items.count == 3 else {
-                output.failedToExecute(reason: "Invalid query: \(queryText)")
-                return false
+                return (false, nil, nil, "Invalid query: \(queryText)")
             }
             
             let queryType = QueryType.fromString(items[0])
             
             guard queryType != .Unknown else {
-                output.failedToExecute(reason: "Invalid query type: \(items[0])")
-                return false
+                return (false, nil, nil, "Invalid query type: \(items[0])")
             }
             
             let A = Int(items[1])
             let B = Int(items[2])
             
             guard let aValue = A, let bValue = B else {
-                output.failedToExecute(reason: "Invalid query: \(queryText)")
-                return false
+                return (false, nil, nil, "Invalid query: \(queryText)")
             }
             
             guard aValue >= 1, aValue <= nValue, bValue > aValue, bValue <= nValue else {
-                output.failedToExecute(reason: "Invalid query (1≦A,B≦N and A≠B): \(queryText)")
-                return false
+                return (false, nil, nil, "Invalid query (1≦A,B≦N and A≠B): \(queryText)")
             }
             
             let query = Query(from: aValue, to: bValue, type: queryType, date: index)
             
             queries.append(query)
         }
-        DispatchQueue.global(qos: DispatchQoS.QoSClass.default).async {
-            self.executeQueries(queries, n: nValue)
-        }
-        
-        return true
+        return (true, queries, nValue, nil)
     }
     
-    private func executeQueries(_ queries:[Query], n:Int) {
+    func executeQueries(_ queries:[Query], n:Int) -> String {
         var outputs = [String]()
         var islands = [Island]()
         for id in 1...n {
@@ -121,9 +127,7 @@ class MainInteractor: MainUseCase {
             outputText.append("\(output)\n")
         }
         
-        DispatchQueue.main.async {
-            self.output.gotResult(outputText)
-        }
+        return outputText
     }
     
 }

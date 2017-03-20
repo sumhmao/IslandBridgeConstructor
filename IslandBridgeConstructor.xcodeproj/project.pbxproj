@@ -211,8 +211,8 @@
 				113EBED41E7FAEFD008CE4B1 /* BitWiseTests.swift */,
 				113EBED81E7FC36F008CE4B1 /* BridgeTests.swift */,
 				113EBED61E7FBDF8008CE4B1 /* RoutePickTests.swift */,
-				1161F61C1E7E7E2700AAFCA3 /* Info.plist */,
 				113EBEE01E8017F3008CE4B1 /* OutputTests.swift */,
+				1161F61C1E7E7E2700AAFCA3 /* Info.plist */,
 			);
 			path = IslandBridgeConstructorTests;
 			sourceTree = "<group>";

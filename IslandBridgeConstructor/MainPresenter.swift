@@ -25,7 +25,12 @@ class MainPresenter: MainPresentation {
     
     func didTapExecute(input: String) {
         view?.hideKeyboard()
-        _ = interactor.executeLogic(input: input)
+        if input.isEmpty {
+            view?.showErrorMessage("Input can't be empty")
+        } else {
+            view?.showLoadingIndicator()
+            interactor.executeLogic(input: input)
+        }
     }
     
 }
@@ -33,7 +38,8 @@ class MainPresenter: MainPresentation {
 extension MainPresenter: MainInteractorOutput {
     
     func gotResult(_ result: String) {
-        view?.showOutput(result)
+        view?.hideLoadingIndicator()
+        self.view?.showOutput(result)
     }
     
     func failedToExecute(reason: String?) {

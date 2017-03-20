@@ -31,7 +31,7 @@ protocol MainPresentation: class {
 protocol MainUseCase: class {
     weak var output: MainInteractorOutput! { get set }
     
-    func executeLogic(input:String) -> Bool
+    func executeLogic(input:String)
 }
 
 protocol MainInteractorOutput: class {
