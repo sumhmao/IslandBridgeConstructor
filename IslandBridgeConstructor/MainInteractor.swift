@@ -51,6 +51,14 @@ class MainInteractor: MainUseCase {
             return (false, nil, nil, "Invalid query: \(initialQuery)")
         }
         
+        guard nValue >= 1, nValue <= 50 else {
+            return (false, nil, nil, "Invalid query N (1 ≦ N ≦ 50): \(initialQuery)")
+        }
+        
+        guard qValue >= 1, qValue <= 500 else {
+            return (false, nil, nil, "Invalid query Q (1 ≦ Q ≦ 500): \(initialQuery)")
+        }
+        
         guard qValue == lines.count - 1 else {
             return (false, nil, nil, "Total queries doesn't match Q: Expected:\(qValue), Actual:\(lines.count - 1)")
         }
