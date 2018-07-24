@@ -26,7 +26,7 @@
 		113EBEDD1E7FD81E008CE4B1 /* IndicatorViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEDC1E7FD81E008CE4B1 /* IndicatorViewExtension.swift */; };
 		113EBEDF1E7FD8D7008CE4B1 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEDE1E7FD8D7008CE4B1 /* StringExtension.swift */; };
 		113EBEE11E8017F3008CE4B1 /* OutputTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEE01E8017F3008CE4B1 /* OutputTests.swift */; };
-		113EBEE31E803A17008CE4B1 /* Readme.md in Sources */ = {isa = PBXBuildFile; fileRef = 113EBEE21E803A17008CE4B1 /* Readme.md */; };
+		113EBEE31E803A17008CE4B1 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 113EBEE21E803A17008CE4B1 /* Readme.md */; };
 		1161F6061E7E7E2700AAFCA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161F6051E7E7E2700AAFCA3 /* AppDelegate.swift */; };
 		1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60C1E7E7E2700AAFCA3 /* Assets.xcassets */; };
 		1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1161F60E1E7E7E2700AAFCA3 /* LaunchScreen.storyboard */; };
@@ -407,6 +407,7 @@
 				1161F6101E7E7E2700AAFCA3 /* LaunchScreen.storyboard in Resources */,
 				1161F60D1E7E7E2700AAFCA3 /* Assets.xcassets in Resources */,
 				113EBEC91E7EF509008CE4B1 /* MainStoryboard.storyboard in Resources */,
+				113EBEE31E803A17008CE4B1 /* Readme.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,7 +496,6 @@
 				113EBECD1E7F075E008CE4B1 /* BridgeExtension.swift in Sources */,
 				113EBEDF1E7FD8D7008CE4B1 /* StringExtension.swift in Sources */,
 				118E01F01E7E85170037FB1D /* QueryType.swift in Sources */,
-				113EBEE31E803A17008CE4B1 /* Readme.md in Sources */,
 				113EBED31E7FAD6B008CE4B1 /* IntExtension.swift in Sources */,
 				118E01EC1E7E843A0037FB1D /* ArrayExtension.swift in Sources */,
 				113EBEC31E7EF3AC008CE4B1 /* MainRouter.swift in Sources */,
@@ -655,7 +655,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.chavalit.mobile.IslandBridgeConstructor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
@@ -670,7 +670,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = th.chavalit.mobile.IslandBridgeConstructor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
