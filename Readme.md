@@ -2,7 +2,7 @@
 
 Application Name: IslandBridgeConstructor
 
-Creator: Cahavalit Vanasapdamrong
+Creator: Chavalit Vanasapdamrong
 
 Last Edited: March 20th 2017 (11:22PM)
 

@@ -10,7 +10,7 @@ import UIKit
 
 class RootRouter: RootWireframe {
     
-    func presentNewsScreen(in window: UIWindow) {
+    func presentMainScreen(in window: UIWindow) {
         window.makeKeyAndVisible()
         window.rootViewController = MainRouter.assembleModule()
     }

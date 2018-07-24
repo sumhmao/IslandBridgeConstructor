@@ -19,7 +19,7 @@ protocol MainView: IndicatableView {
 }
 
 protocol MainPresentation: class {
-    weak var view: MainView? { get set }
+    var view: MainView? { get set }
     var interactor: MainUseCase! { get set }
     var router: MainWireframe! { get set }
     
@@ -29,7 +29,7 @@ protocol MainPresentation: class {
 }
 
 protocol MainUseCase: class {
-    weak var output: MainInteractorOutput! { get set }
+    var output: MainInteractorOutput! { get set }
     
     func executeLogic(input:String)
 }
@@ -40,7 +40,7 @@ protocol MainInteractorOutput: class {
 }
 
 protocol MainWireframe: class {
-    weak var viewController: UIViewController? { get set }
+    var viewController: UIViewController? { get set }
     
     static func assembleModule() -> UIViewController
 }

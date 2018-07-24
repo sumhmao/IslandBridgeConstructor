@@ -10,6 +10,6 @@ import UIKit
 
 protocol RootWireframe: class {
     
-    func presentNewsScreen(in window: UIWindow)
+    func presentMainScreen(in window: UIWindow)
     
 }

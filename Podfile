@@ -5,7 +5,7 @@ target 'IslandBridgeConstructor' do
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'SwiftSpinner', '~> 1.1.0'
+  pod 'SwiftSpinner'
 
   target 'IslandBridgeConstructorTests' do
     inherit! :search_paths
