@@ -12,7 +12,7 @@ Coding Architecture: VIPER
 
 Libraries (Cocoapods):
 
-- SwiftSpinner 1.2.0 (https://cocoapods.org/pods/SwiftSpinner)
+- SwiftSpinner (https://cocoapods.org/pods/SwiftSpinner)
 
 ======================================================================
 
